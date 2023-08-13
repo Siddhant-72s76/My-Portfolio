@@ -63,7 +63,7 @@ document.addEventListener('visibilitychange',
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
+            document.title = "Thank You";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
     });
@@ -84,7 +84,7 @@ async function fetchData(type = "skills") {
     type === "skills" ?
         response = await fetch("skills.json")
         :
-        response = await fetch("./projects/projects.json")
+        response = await fetch("./projects.json")
     const data = await response.json();
     return data;
 }

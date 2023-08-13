@@ -24,7 +24,7 @@ document.addEventListener('visibilitychange',
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
+            document.title = "Thank You";
             $("#favicon").attr("href", "/assets/images/favhand.png");
         }
     });
@@ -32,7 +32,7 @@ document.addEventListener('visibilitychange',
 
 // fetch projects start
 function getProjects() {
-    return fetch("projects.json")
+    return fetch("./projects.json")
         .then(response => response.json())
         .then(data => {
             return data
