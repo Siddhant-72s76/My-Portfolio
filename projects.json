@@ -1,12 +1,12 @@
 [
   {
-    "name": "Coming Soon...",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
-    "image": "download",
+    "name": "Voice Assistant",
+    "desc": "This a Personal Virtual Voice Assistant app build using Flutter, ChatGPT and DallE.",
+    "image": "voiceAssistantChatGpt",
     "category": "android",
     "links": {
       "view": "https://www.instagram.com/siddhant_72s76/",
-      "code": "https://www.instagram.com/siddhant_72s76/"
+      "code": "https://github.com/Siddhant-72s76/voice-assistant-chatGPT"
     }
   },
   {
